@@ -1,0 +1,59 @@
+body {
+  background: #FF5600;
+}
+
+#cap {
+  background: #FF8240;
+  width: 925px;
+  height: 200px;
+  display: flex;
+  position: absolute;
+  margin: 20px 20px;
+  border-radius: 20px;
+  opacity: 1;
+  z-index: 0;
+}
+
+#logo {
+  z-index: 2;
+  position: absolute;
+  border-radius: 20px;
+  margin: 20px 20px;
+}
+
+#card_espresso {
+  background: #A63A00;
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  margin: 270px 20px;
+  border-radius: 50px;
+  opacity: 1;
+  z-index: 0;
+}
+
+#card_latte {
+  background: #A63A00;
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  margin: 270px 490px;
+  border-radius: 50px;
+  opacity: 1;
+  z-index: 0;
+}
+
+#card_espresso_img {
+  z-index: 2;
+  position: absolute;
+  margin: 280px 130px;
+  width: 229px;
+  height: 350px;
+}
+
+#text_espresso {
+  position: absolute;
+  z-index: 3;
+  font-size: 50px;
+  margin: 635px 25px;
+}
